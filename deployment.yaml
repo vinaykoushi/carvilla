@@ -33,5 +33,5 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 80
-    nodePort: 30080  # You can choose a port in the 30000–32767 range
+    nodePort: 30500  # You can choose a port in the 30000–32767 range
 
