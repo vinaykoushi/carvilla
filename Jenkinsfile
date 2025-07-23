@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_IMAGE = 'vinnu17/carapp:1'
+        DOCKER_IMAGE = 'vinnu17/carapp:updated'
     }
     stages {
         stage('Clone Repository') {
