@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: vinnu17/project-1:2
+        image: vinnu17/carapp:latest
         ports:
         - containerPort: 80
 
