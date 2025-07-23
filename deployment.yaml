@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: vinnu17/carapp:latest
+        image: vinnu17/carapp:1
         ports:
         - containerPort: 80
 
@@ -33,5 +33,5 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 80
-    nodePort: 30500  # You can choose a port in the 30000–32767 range
+    nodePort: 30400  # You can choose a port in the 30000–32767 range
 
